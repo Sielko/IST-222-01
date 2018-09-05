@@ -5,6 +5,5 @@ Stuff I work on in my class IST-222-01
 
 ## Completed
 
-- [ ] Curbside Thai website [Turtorial]
+- [X] Curbside Thai website [Turtorial]
 
----
