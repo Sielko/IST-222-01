@@ -4,8 +4,8 @@
    Tutorial Case
    
    TSS Typographic Style Sheet
-   Author: 
-   Date:   
+   Author: Jonathan Trent Patterson
+   Date:   9/21/2018
    
    Filename: tss_styles.css
 
@@ -33,11 +33,11 @@ body {
 /* Heading Styles */
 
 h1 {
-	font-size: 2.2em;
+	font-size: 2.2;
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 1.5;
 }
 
 h1, h2 {
