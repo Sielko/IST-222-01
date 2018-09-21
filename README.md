@@ -13,4 +13,4 @@ Stuff I work on in my class IST-222-01
 
 ### Chapter 2
 
-- [ ] Tri and Succeed Sports website [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial02/html02/tutorial/tss_home.html) to view.
+- [X] Tri and Succeed Sports website [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial02/html02/tutorial/tss_home.html) to view.
