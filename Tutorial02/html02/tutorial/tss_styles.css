@@ -147,7 +147,7 @@ article#about_tss ul li:last-of-type {
 
 /* Footer Styles */
 
-body > footer adress {
+body > footer address {
 	background-color: rgb(222, 123, 60);
 	color: white;
 	color: rgba(255, 255, 255, 0.7);
