@@ -20,9 +20,17 @@ html {
 	background-color: rgb(151, 151, 151);
 }
 
-body{
+body {
 	background-color: rgb(180, 180, 223);
 	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+h2 {
+	font-weight: normal;
 }
 
 footer {
@@ -34,17 +42,11 @@ footer {
 	padding-bottom: 1px;
 }
 
-h1 {
-	font-weight: normal;
-}
-
-h2 {
-	font-weight: normal;
-}
 
 nav a:link{
 	text-decoration: none;
 }
+
 /* Body Header Styles */
 
 body > header {
@@ -62,23 +64,25 @@ body > header > h1 > span {
 	color: rgba(255, 255, 255, 0.4);
 }
 
-/* body h1 {
-	font-size: 4vw;
-	color: rgba(255, 255, 255, 0.8);
-	font-family: Limelight, cursive;
-	margin: 0px;
-} */
 
 
 
 /* Navigation Styles */
+
+a:link {
+	text-decoration: none;
+}
 
 #mainLinks a{
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 
-ul a {
+a:visited, a:unvisited {
+	color: white;
+}
+
+#mainLinks ul a {
 	color: white;
 }
 
@@ -87,32 +91,7 @@ a:hover, a:active {
 	background-color: rgba(51, 51, 51, 0.5);
 }
 
-/* ul a:link, a:visited{
-	padding-top: 5px;
-	padding-bottom: 5px;
-	color: white;
-}
 
-ul a:hover, a:active{
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-ul a:hover, a:active{
-	color: rgba(255, 255, 255, 0.8);
-	background-color: rgba(51, 51, 51, 0.5);
-	text-decoration: underline;
-} */
-
-/* nav.mainLinks > ul > li > a:link, nav.mainLinks > ul > li > a:visited {
-	color: white
-	text-decoration: none;
-}
-
-nav.mainLinks > ul > li > a:hover, nav.mainLinks > ul > li > a:active {
-	color: rgba(51, 51, 51, 0.5);
-	text-decoration: underline;
-} */
 
 /* Outline Styles */
 
@@ -121,8 +100,8 @@ nav.mainLinks > ul > li > a:hover, nav.mainLinks > ul > li > a:active {
 	font-size: 0.8em;
 }
 
-h1 {
-	align-content: center;
+#outline h1 {
+	text-align: center;
 }
 
 nav > ol {
@@ -142,15 +121,11 @@ ol a {
 	color: rgb(101, 101, 101;
 }
 
-ol a:hover, a:active {
-	color: rgb(97, 97, 211);
-	text-decoration: underline;
-}
 
 /* Section Styles */
 
 section {
-	background-color: rgb(220, 220, 220);
+	background-color: rgb(220, 220, 220)
 }
 
 section header h1 {
@@ -179,11 +154,4 @@ aside {
 
 aside h1 {
 	font-size: 1.4em;
-}
-
-
-footer {
-	color: white;
-	font-size: 0.8em;
-	text-align: center;
 }
