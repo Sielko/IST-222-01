@@ -58,6 +58,7 @@ body > header > h1 {
 	color: rgba(255, 255, 255, 0.8);
 	font-family: Limelight, cursive;
 	margin: 0px;
+	padding: 10px 15px;
 }
 
 body > header > h1 > span {
@@ -118,14 +119,14 @@ nav > ol ol {
 }
 
 ol a {
-	color: rgb(101, 101, 101;
+	color: rgb(101, 101, 101);
 }
 
 
 /* Section Styles */
 
 section {
-	background-color: rgb(220, 220, 220)
+	background-color: rgb(220, 220, 220);
 }
 
 section header h1 {
