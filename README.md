@@ -16,3 +16,7 @@ Stuff I work on in my class IST-222-01
 - [X] Tri and Succeed Sports website [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial02/html02/tutorial/tss_home.html) to view.
 
 - [X] Civil War History home page [Case 3] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial02/html02/case3/cw_class.html) to view.
+
+### Chapter 3
+
+- [ ] Pandaisia Chocolates website [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial03/html03/tutorial/pc_home.html) to view.
