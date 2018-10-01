@@ -3,8 +3,6 @@ Stuff I work on in my class IST-222-01
 
 ---
 
-## Completed
-
 ### Chapter 1
 
 - [X] Curbside Thai website [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial01/html01/tutorial/ct_start.html) to view.
@@ -20,3 +18,8 @@ Stuff I work on in my class IST-222-01
 ### Chapter 3
 
 - [ ] Pandaisia Chocolates website [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial03/html03/tutorial/pc_home.html) to view.
+
+---
+
+#### Disclamier
+*Some of my stuff may not be 100% correct, and it may differ from the way your Instructor wants you to do it. My stuff is based off of [this](https://www.cengage.com/c/new-perspectives-html5-and-css3-comprehensive-7e-carey/9781305503939) book.*
