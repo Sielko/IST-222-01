@@ -6,8 +6,8 @@
    Tutorial Case
    
    Style Sheet for the Layout of the Pandaisia Chocolates Home Page
-   Author: 
-   Date:   
+   Author: Jonathan Trent Patterson
+   Date:   10/1/2018
    
    Filename: pc_home.css
 
@@ -80,6 +80,12 @@ section#rightColumn > nav.horizontalNavigation li {
 footer {
 	background-color: rgb(71, 52, 29);
 	clear: left;
+}
+
+footer::after {
+	clear: both;
+	content: " ";
+	display: table;
 }
 
 footer > nav.verticalNavigation {
