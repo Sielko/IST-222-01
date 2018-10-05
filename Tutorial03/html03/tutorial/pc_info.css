@@ -16,7 +16,7 @@
 
 main {
 	position: relative;
-	height: 450px;
+	height: 1400px;
 	width:100%;
 }
 
@@ -42,8 +42,8 @@ div#info1 {
 
 div#info2 {
 	display: block;
-	top: 145px
-	left: 42px;
+	top: 125px;
+	left: 350px;
 }
 
 /* Third Infographic */

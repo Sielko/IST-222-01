@@ -54,7 +54,7 @@ section#leftColumn {
 	clear: left;
 	float: left;
 	padding: 1.5em;
-	width: 33%;
+	width: 30%;
 }
 
 
@@ -67,7 +67,7 @@ section#rightColumn img {
 
 section#rightColumn {
 	float: left;
-	width: 67%;
+	width: 64%;
 }
 
 section#rightColumn > nav.horizontalNavigation li {
