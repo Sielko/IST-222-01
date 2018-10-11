@@ -18,7 +18,7 @@ Stuff I work on in my class IST-222-01
 ### Chapter 3
 
 - [X] Pandaisia Chocolates website [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial03/html03/tutorial/pc_home.html) to view.
-- [ ] A Soldier’s Scrapbook [Case 3] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial03/html03/case3/ss_dday.html) to view.
+- [X] A Soldier’s Scrapbook [Case 3] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial03/html03/case3/ss_dday.html) to view.
 
 ### Chapter 4
 
