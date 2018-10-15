@@ -29,7 +29,7 @@ Stuff I work on in my class IST-222-01
 
 ### Chapter 5
 
-- [ ] Trusted Friends website [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial05/html05/tutorial/tf_home.html) to view. - Hosted Domain at: [trustedfriendsdaycare.tk](http://trustedfriendsdaycare.tk/)) to view.
+- [ ] Trusted Friends website [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial05/html05/tutorial/tf_home.html) to view. - Hosted Domain at: [trustedfriendsdaycare.tk](http://trustedfriendsdaycare.tk/) to view.
 
 ---
 
