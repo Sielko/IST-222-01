@@ -5,8 +5,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author:   Jonathan Trent Patterson
+   Date:     10/5/2018
    
    Filename: tf_styles1.css
    
@@ -102,6 +102,15 @@ ul.submenu {
    background-color: rgb(181, 204, 136);
 }
 
+/* hide submenu*/
+ul.submenu {
+	display: none;
+}
+
+/* show submenu */
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+	display: block;
+}
 
 /* Section Styles */
 
@@ -150,4 +159,48 @@ body > footer {
 
 /* New Styles Added Below */
 
+/*  ============================
+	Mobile Styles: 0px to 480px
+	============================
+*/
+
+@media only screen and (max-width:480px){
+	
+	nav.horizontal a {
+		font-size: 1.5em;
+		line-height: 2.2em;
+	}
+	
+	aside {
+		display: none;
+	}
+	
+}
+
+/*  =================================
+	Tablet Styles: 481px and greater
+	=================================
+*/
+
+@media only screen and (min-width: 481px) {
+	
+	ul.mainmenu > li {
+		float-: left;
+		width: 20%;
+	}
+	
+	ul.submenu {
+		width: 200%
+	}
+	
+}
+
+/*	===================================
+	Desktop Styles: 769px and greater
+	===================================
+*/
+
+@media only screen and (min-width: 769px) {
+	
+}
 
