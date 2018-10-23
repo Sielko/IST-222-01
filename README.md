@@ -25,7 +25,7 @@ Stuff I work on in my class IST-222-01
 
 - [X] Tree and Book Family Home Page [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial04/html04/tutorial/tb_komatsu.html) to view. - Hosted Domain at: [treeandbook.tk](http://treeandbook.tk)
 
-- [ ] Chupacabra Music Festival [Case 3] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial04/html04/case3/cf_home.html) to view. - Hosted Domain at: [chupacabramusicfestival.tk](http://chupacabramusicfestival.tk/)
+- [X] Chupacabra Music Festival [Case 3] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial04/html04/case3/cf_home.html) to view. - Hosted Domain at: [chupacabramusicfestival.tk](http://chupacabramusicfestival.tk/)
 
 ### Chapter 5
 
