@@ -191,7 +191,7 @@ a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
 @media only screen and (min-width: 481px) {
 	
 	ul.mainmenu > li {
-		float-: left;
+		float: left;
 		position: relative;
 		width: 20%;
 	}
@@ -240,7 +240,7 @@ a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
 	article {
 		float: left;
 		margin-right: 5%;
-		width: 40%;
+		width: 55%;
 	}
 	
 	aside {
