@@ -32,6 +32,10 @@ Stuff I work on in my class IST-222-01
 - [X] Trusted Friends website [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial05/html05/tutorial/tf_home.html) to view. - Hosted Domain at: [trustedfriendsdaycare.tk](http://trustedfriendsdaycare.tk/) to view.
 - [ ] Willet Creek website [Case 2] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial05/html05/case2/wc_hole01.html) to view. - Hosted Domain at: [willetcreek.tk](http://willetcreek.tk) to view.
 
+### Chapter 6
+
+- [ ] DLR Nightly Schedule [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial06/html06/tutorial/dlr_evenings.html) to view. - Hosted Domain at: [dlrnightlyschedule.tk](http://dlrnightlyschedule.tk/) to view.
+
 ---
 
 #### Disclamier
