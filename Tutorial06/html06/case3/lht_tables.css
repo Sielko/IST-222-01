@@ -67,8 +67,8 @@
 @media only screen and (min-width: 641px) {
 	table {
 		background: url(lht_photo1.png) bottom right / 40% no-repeat;
-		border: 6px; double rgb(154, 64, 3);
-		border collapse: collapse;
+		border: 6px double rgb(154, 64, 3);
+		border-collapse: collapse;
 		margin: 20px auto;
 		table-layout: fixed;
 		width: 85%;
