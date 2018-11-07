@@ -35,7 +35,7 @@ Stuff I work on in my class IST-222-01
 ### Chapter 6
 
 - [X] DLR Nightly Schedule [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial06/html06/tutorial/dlr_evenings.html) to view. - Hosted Domain at: [dlrnightlyschedule.tk](http://dlrnightlyschedule.tk/) to view.
-- [ ] The Lyman Hall Theater [Case 3] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial06/html06/case3/lht_feb.html) to view. - Hosted Domain at: [thelymanhalltheater.tk](http://thelymanhalltheater.tk/) to view.
+- [X] The Lyman Hall Theater [Case 3] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial06/html06/case3/lht_feb.html) to view. - Hosted Domain at: [thelymanhalltheater.tk](http://thelymanhalltheater.tk/) to view.
 
 ### Chapter 7
 
