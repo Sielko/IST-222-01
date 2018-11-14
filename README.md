@@ -39,7 +39,9 @@ Stuff I work on in my class IST-222-01
 
 ### Chapter 7
 
-- [ ] Red Ball Pizza [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial07/html07/tutorial/rb_survey.html) to view. - Hosted Domain at: [redballpizza.tk](http://redballpizza.tk/) to view.
+- [X] Red Ball Pizza [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial07/html07/tutorial/rb_survey.html) to view. - Hosted Domain at: [redballpizza.tk](http://redballpizza.tk/) to view.
+- [X] Spice Bowl Payment Form [Tutorial] [Click Here](https://jtrent238.github.io/IST-222-01/Tutorial07/html07/case2/sb_payment.html) to view. - Hosted Domain at: [spicebowlpayment.tk ](http://spicebowlpayment.tk/) to view.
+
 ---
 
 #### Disclamier
