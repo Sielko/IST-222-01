@@ -1,4 +1,41 @@
 img.Steven_Shield_WD {
-	width: 250px;
+	width: 15%;
 	height: auto;
 }
+
+img.img_logo {
+	width: 25%;
+	height: auto;
+}
+
+img.Steven {
+	width: 15%;
+	height: auto;
+}
+
+img.STEV {
+	width: 75%;
+	height: auto;
+	float: right;
+}
+
+p.abilities {
+	float: right;
+}
+
+blockquote {
+	font-size: 1em;
+	width: 100%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	margin: 0 0 4% 0;
+}
+
+blockquote p:last-of-type {
+	border-top: 1px solid rgba(128,98,26,1.00);
+	text-align: right;
+	font-size: 1em;
+}
+
+q {quotes: "\201C" "\201D" "\2018" "\2019";}
+q:before {content:open-quote;}
+q:after {content:close-quote;}
