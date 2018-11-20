@@ -1,0 +1,54 @@
+img.Beach_City_Map {
+	width: 75%;
+	height: auto;
+	padding-left: 5%;
+	padding-right: 5%;
+	display: block;
+}
+
+img.Rose_Quartz_gem_day  {
+	width: 3%;
+	height: auto;
+}
+
+div#Beach_City_Map {
+	width: 2048px;
+	margin: 20px auto;
+	position: relative;
+}
+
+a.mapMarkers {
+	position: absolute;
+}
+
+/* The Big Donut */
+a#marker1 {
+	top: 666px;
+	left: 535px;
+}
+
+/* Funland Amusement */
+a#marker2 {
+	top: 310px;
+	left: 400px;
+}
+
+a#marker3 {
+	top: 520px;
+	left: 340px;
+}
+
+a#marker4 {
+	top: 520px;
+	left: 340px;
+}
+
+a#marker5 {
+	top: 520px;
+	left: 340px;
+}
+
+a#marker6 {
+	top: 520px;
+	left: 340px;
+}
