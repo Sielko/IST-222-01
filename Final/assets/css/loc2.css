@@ -1,0 +1,11 @@
+div.main {
+	border: blue;
+}
+
+img.Bubble_Buddies_BG_4 {
+	size: 5%;
+}
+
+div.main > aside{
+	float: left;
+}
