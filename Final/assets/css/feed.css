@@ -1,0 +1,35 @@
+div.feedback {
+	display: block;
+	resize: none;
+	width: 33.33%;
+	height: auto;
+}
+
+div.contribute {
+	width: 33.33%;
+	height: auto;
+}
+
+input[type=text] {
+	background-color: lightorange;
+	background-image: url(assets\img\pencil.gif);
+}
+
+input[type=text]:focus {
+	background-color: lightblue;
+}
+
+/* Peridot_Gem_Standard */
+/* Garnet_ruby_gem_day */
+
+input:focus:valid:not([type="text"]) {
+	background: rgb(215, 255, 255 url(assets\img\Peridot_Gem_Standard.png) / contain no-repeat;
+}
+
+input:focus:invalid:not([type="text"]) {
+	background: rgb(215, 245, 215 url(assets\img\Garnet_ruby_gem_day.png) / contain no-repeat;
+}
+
+input.creditcard_box {
+	size: 4;
+}

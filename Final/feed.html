@@ -36,7 +36,7 @@
 		 <p class="w3-xlarge w3-animate-bottom">For President</p>
 	  </header>
 	  <br/>
-		<div class="w3-card-4 w3-margin">
+		<div class="w3-card-4 w3-margin feedback">
 			<div class="w3-container w3-orange">
 				<h2>Feedback:</h2>
 			</div>
@@ -86,7 +86,16 @@
 				<div class="w3-row-padding">
 					<div class="w3-half">
 						<label for="age" class="">Age: </label>
-							<input class="w3-input w3-border" type="text" placeholder="00" required="yes">
+							<input class="w3-input w3-border w3-round" type="number" placeholder="00" required="yes">
+					</div>
+				</div>
+				
+			<br/>
+			
+				<div class="w3-row-padding">
+					<div class="feedback">
+						<label for="feedback">Feedback: </label>
+							<input class="w3-input w3-border w3-round feedback" name="feedback" id="feedback" type="text" placeholder="Please leave feedback here!" required="yes">
 					</div>
 				</div>
 			<br/>
@@ -95,7 +104,57 @@
 			</form>
 			
 			<br/>
+			<br/>
 			
+				</div>
+
+		
+		<div class="w3-card-4 w3-margin contribute">
+			<div class="w3-container w3-orange">
+				<h2>Contribute:</h2>
+			</div>
+			
+			<form class="w3-container">
+			
+				<br/>
+				
+					<div class="w3-row-padding">
+						<div class="w3-half">
+							<label for="ccName">Name on card: </label>
+								<input class="w3-border w3-round ccName" id="ccName" name="ccName" type="text" required="yes"></input>
+						</div>
+					</div>
+				
+				<br/>
+				
+					<div class="w3-row-padding">
+						<div class="w3-half">
+							<label for="creditcard">Credit Card number:</label>
+								<input class="w3-border w3-round creditcard_box card_box1" id="card_box1" name="card_box1" type="text" size="4" required="yes">
+								<input class="w3-border w3-round creditcard_box card_box2" id="card_box2" name="card_box2" type="text" size="4"  required="yes">
+								<input class="w3-border w3-round creditcard_box card_box3" id="card_box3" name="card_box3" type="text" size="4"  required="yes">
+								<input class="w3-border w3-round creditcard_box card_box4" id="card_box4" name="card_box4" type="text" size="4"  required="yes">
+						</div>
+					</div>
+					
+				<br/>
+				
+					<div class="w3-row-padding">
+						<div class="w3-half">
+							<label for="ccCSV">CSV: </label>
+								<input class="w3-border w3-round ccCSV" id="ccCSV" name="ccCSV" type="text" size="3" required="yes">
+			<br/>
+			<br/>
+				<button class="w3-btn w3-orange">Submit</button>
+			</form>
+			
+			<br/>
+			<br/>
+			
+				</div>
+			</div>
+			</div>
+			</div>
 		</div>
 	<!-- Footer -->
 	  <footer class="w3-container w3-padding-64 w3-center w3-opacity">
