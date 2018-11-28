@@ -8,9 +8,10 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/new.css">
 	<link rel="stylesheet" href="assets/css/rainbow.css">
-	<link rel="stylesheet" href="assets/css/sched_table.css">
+	<link rel="stylesheet" href="assets/css/feed.css">
 	
 </head>
 <body>
@@ -46,12 +47,12 @@
 				
 					<div class="w3-row-padding">
 						<div class="w3-half">
-							<label for="nameFirst">First Name: </label>
-									<input class="w3-input w3-border" type="text" placeholder="first" required="yes">
+							<label for="nameFirst"><i class="fa fa-user"></i> First Name: </label>
+									<input class="w3-input w3-border w3-round" type="text" placeholder="first" required="yes">
 						</div>
 						<div class="w3-half">
-							<label for="nameLast">Last Name: </label>
-									<input class="w3-input w3-border" type="text" placeholder="last" required="yes" >
+							<label for="nameLast"><i class="fa fa-user"></i> Last Name: </label>
+									<input class="w3-input w3-border w3-round" type="text" placeholder="last" required="yes" >
 						</div>
 					</div>
 				
@@ -59,7 +60,7 @@
 			
 				<div class="w3-row-padding">
 					<div class="w3-half">
-						<label for="email">Email: </label>
+						<label for="email"><i class="fas fa-envelope"></i> Email: </label>
 								<br/>
 									<input id="email" class="w3-input w3-border" type="text" placeholder="johndoe@example.com" required="yes">
 					</div>
@@ -68,15 +69,13 @@
 			<br/>
 			
 				<div class="w3-row-padding">
-					<div class="w3-half">
+					<div class="gender">
 						<label for="gender" class="">Gender: </label>
-							<br/>
+						<br/>
 							<label for="gender_male">Male</label>
 								<input class="w3-radio" id="gender_male" type="radio" name="gender" value="male" checked="yes">
-									<br/>
-							<label for="gender_female">Female</label>
-								<input class="w3-radio" id="gender_female" type="radio" name="gender" value="female" checked="no" >
-									<br/>
+							<label for="gender_female" class="gender_female">Female</label>
+								<input class="gender_female w3-radio" id="gender_female" type="radio" name="gender" value="female" checked="no" >
 							<label for="gender_other">Other</label>
 								<input class="w3-radio" id="gender_other" type="radio" name="gender" value="other" checked="no" >
 					</div>
