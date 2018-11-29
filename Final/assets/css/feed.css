@@ -23,7 +23,6 @@ label.creditcard {
 }
 
 div.csv {
-	width: 25%;
 	float: left;
 }
 
@@ -45,6 +44,10 @@ i.ccIcon {
 	/* width: 25%; */
 	/* float: left; */
 /* } */
+
+div.feedback_box {
+	resize: 50, 50;
+}
 
 input[type=text] {
 	background-color: lightorange;

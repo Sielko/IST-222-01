@@ -86,16 +86,16 @@
 				<div class="w3-row-padding">
 					<div class="w3-half">
 						<label for="age" class="">Age: </label>
-							<input class="w3-input w3-border w3-round" type="number" placeholder="00" required="yes">
+							<input class="w3-input w3-border w3-round" type="number" placeholder="" required="yes">
 					</div>
 				</div>
 				
 			<br/>
 			
 				<div class="w3-row-padding">
-					<div class="feedback">
+					<div class="feedback_box">
 						<label for="feedback">Feedback: </label>
-							<input class="w3-input w3-border w3-round feedback" name="feedback" id="feedback" type="text" placeholder="Please leave feedback here!" required="yes">
+							<input class="w3-input w3-border w3-round feedback" name="feedback" id="feedback_box" type="text" size="500" placeholder="Please leave feedback here!" required="yes">
 					</div>
 				</div>
 			<br/>
@@ -124,7 +124,7 @@
 								<input class="w3-border w3-round ccName" id="ccName" name="ccName" type="text" required="yes"></input>
 						</div>
 					</div>
-					
+					<br/>
 					<div class="w3-row-padding">
 						<div class="w3-half">
 							<legend>Credit Card Number: </legend>
@@ -136,6 +136,8 @@
 										<input class="w3-border w3-round creditcard_box card_box3" id="card_box3" name="card_box3" type="text" size="4" maxlength="4" pattern="\d\d\d\d"  required="yes">
 										<input class="w3-border w3-round creditcard_box card_box4" id="card_box4" name="card_box4" type="text" size="4" maxlength="4" pattern="\d\d\d\d"  required="yes">
 									<!-- </fieldset> -->
+									
+									<br/>
 									<br/>
 									
 									<label for="monthList">Expiration Date: </label>
@@ -169,11 +171,22 @@
 								<!-- </fieldset> -->
 						</div>
 					</div>
-				
+					<br/>
 					<div class="w3-row-padding csv">
-						<div class="w3-half">
+						<div class="w3-half csv2">
 							<label for="ccCSV">CSV: </label>
 								<input class="w3-border w3-round ccCSV" id="ccCSV" name="ccCSV" type="text" size="3" maxlength="3" pattern="^\d\d\d" required="yes">
+						</div>
+					</div>
+				<br/>
+				<br/>
+				<br/>
+					<div class="w3-row-padding donationAmount">
+						<div class="w3-half">
+							<label for="donationAmount">Donation Amount: $ </label>
+								<input class="w3-border w3-round donationAmount" id="donationAmount" name="donationAmount" type="number" pattern="" required="yes">
+						</div>
+					</div>
 			<br/>
 			<br/>
 					<!-- <div class="w3-xxxlarge ccIcon" id="ccIcon"> -->
