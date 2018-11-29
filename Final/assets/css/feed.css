@@ -3,12 +3,24 @@ div.feedback {
 	resize: none;
 	width: 33.33%;
 	height: auto;
+	float: left;
 }
 
 div.contribute {
 	width: 33.33%;
 	height: auto;
+	float: left;
 }
+
+label.creditcard {
+	width: 25%;
+	float: left;
+}
+
+/* input.creditcard_box { */
+	/* width: 25%; */
+	/* float: left; */
+/* } */
 
 input[type=text] {
 	background-color: lightorange;
@@ -23,11 +35,11 @@ input[type=text]:focus {
 /* Garnet_ruby_gem_day */
 
 input:focus:valid:not([type="text"]) {
-	background: rgb(215, 255, 255 url(assets\img\Peridot_Gem_Standard.png) / contain no-repeat;
+	background: rgb(215, 255, 255) url(assets\img\Peridot_Gem_Standard.png) / contain no-repeat;
 }
 
 input:focus:invalid:not([type="text"]) {
-	background: rgb(215, 245, 215 url(assets\img\Garnet_ruby_gem_day.png) / contain no-repeat;
+	background: rgb(215, 245, 215) url(assets\img\Garnet_ruby_gem_day.png) / contain no-repeat;
 }
 
 input.creditcard_box {
