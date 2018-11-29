@@ -12,9 +12,28 @@ div.contribute {
 	float: left;
 }
 
+fieldset.cardNum {
+	border: none;
+	padding: -10px;
+}
+
 label.creditcard {
 	width: 25%;
 	float: left;
+}
+
+div.csv {
+	width: 25%;
+	float: left;
+}
+
+select.cardMonth {
+	width: 55%;
+	/* margin: 25%; */
+}
+select.cardYear {
+	width: 30%;
+	/* margin: 25%; */
 }
 
 /* input.creditcard_box { */
@@ -41,6 +60,7 @@ input:focus:valid:not([type="text"]) {
 input:focus:invalid:not([type="text"]) {
 	background: rgb(215, 245, 215) url(assets\img\Garnet_ruby_gem_day.png) / contain no-repeat;
 }
+
 
 input.creditcard_box {
 	size: 4;
