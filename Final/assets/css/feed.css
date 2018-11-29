@@ -36,6 +36,11 @@ select.cardYear {
 	/* margin: 25%; */
 }
 
+i.ccIcon {
+	size: 1000px;
+	float: right;
+}
+
 /* input.creditcard_box { */
 	/* width: 25%; */
 	/* float: left; */
