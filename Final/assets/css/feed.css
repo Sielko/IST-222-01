@@ -1,4 +1,6 @@
 div.feedback {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
 	display: block;
 	resize: none;
 	width: 33.33%;
@@ -7,6 +9,8 @@ div.feedback {
 }
 
 div.contribute {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
 	width: 33.33%;
 	height: auto;
 	float: left;
@@ -68,6 +72,10 @@ input:focus:valid:not([type="text"]) {
 input:focus:invalid:not([type="text"]) {
 	background: rgb(215, 245, 215) url(assets\img\Garnet_ruby_gem_day.png) / contain no-repeat;
 }
+
+/* input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { */
+	/* -webkit-appearance: none; */
+/* } */
 
 
 input.creditcard_box {
