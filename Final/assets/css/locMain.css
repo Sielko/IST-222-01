@@ -1,7 +1,34 @@
-div.main {
-	border: blue;
+aside {
+	padding-right: 25px;
 }
 
-img.Bubble_Buddies_BG_4 {
-	padding: 1%;
+div.main > aside.info > img.red_wave_line {
+	width: 15%;
+	height: auto;
+}
+
+/* Red border */
+hr.new1 {
+  border-top: 1px solid red;
+}
+
+/* Dashed red border */
+hr.new2 {
+  border-top: 1px dashed red;
+}
+
+/* Dotted red border */
+hr.new3 {
+  border-top: 1px dotted red;
+}
+
+/* Thick red border */
+hr.new4 {
+  border: 1px solid red;
+}
+
+/* Large rounded green border */
+hr.new5 {
+  border: 10px solid green;
+  border-radius: 5px;
 }
