@@ -3,24 +3,43 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Welcome</title>
-	<!-- <meta http-equiv="refresh" content="5; URL='new.html'" /> -->
+	<meta http-equiv="refresh" content="5; URL='new.html'" />
 	<script src="/assets/js/startTimer.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="assets/css/welcome.css">
 </head>
 <body>
-	<h1>Site is being redesigned</h1>
-		<div>
-			<h2>You will be redirected there in <span id="timer">5</span> seconds</h2>
-		</div>
-    <div>Registration closes in <span id="time">05:00</span> minutes!</div>
-	<div id="countdown">
-		<div id="countdown-number"></div>
-		<svg>
-			<circle r="72" cx="80" cy="80"></circle>
-		</svg>
+	<div class="redesigned">
+		<h1 class="w3-xxxlarge w3-container w3-center redesigned">Site is being redesigned</h1>
+			<p class="w3-xxlarge w3-container w3-center redesigned">You'll be automatically redirected in <span id="count">5</span> seconds...</p>
+				<img src="assets/img/steven_jumping.gif"class="w3-display-middle steven_jumping" alt="steven_jumping">
 	</div>
-		<script>
-			// Run countdown function
-			countdown();
-		</script>
+<script type="text/javascript">
+
+window.onload = function(){
+
+(function(){
+  var counter = 5;
+
+  setInterval(function() {
+    counter--;
+    if (counter >= 0) {
+      span = document.getElementById("count");
+      span.innerHTML = counter;
+    }
+    // Display 'counter' wherever you want to display it.
+    if (counter === 0) {
+    //    alert('this is where it happens');
+        clearInterval(counter);
+    }
+
+  }, 1000);
+
+})();
+
+}
+
+</script>
 </body>
 </html>

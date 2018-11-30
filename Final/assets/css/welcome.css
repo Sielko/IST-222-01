@@ -1,53 +1,38 @@
-body {
-	height: 100%;
-	width: 100%;
-	background-color: rgb(255, 0, 0);
+html {
+	overflow: hidden;
 }
 
-#countdown {
-	position: relative;
-	margin: auto;
-	margin-top: 200px;
-	height: 160px;
-	width: 160px;
-	text-align: center;
-	font-family: oswald;
-	font-size: 22px;
+#content browser {
+	margin-right: -14px !important!
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
-#countdown-number {
-	color: white;
-	display: inline-block;
-	line-height: 160px;
+#element::-webkit-scrollbar {
+	display: none;
 }
 
-svg {
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 160px;
-	height: 160px;
-	transform: rotateY(-180deg) rotateZ(-90deg);
+::-webkit-scrollbar {
+	display: none;
 }
 
-svg circle {
-	stroke-dasharray: 452px;
-	stroke-dashoffset: 0px;
-	stroke-linecap: round;
-	stroke-width: 3px;
-	stroke: white;
-	fill: none;
-	animation: countdown 5s linear infinite fowards;
+::scrollbar {
+	display: none;
 }
 
-@keyframes countdown {
-	from {
-		stroke-dashoffset: 0px;
-	}
-	to {
-		stroke-dashoffset: 452px;
-	}
+h1.redesigned {
+	font-family: 'Indie Flower', cursive;
 }
-h1, h2 {
-	position: center;
+
+p.redesigned {
+	font-family: 'Indie Flower', cursive;
+}
+
+div.redesigned {
+	font-family: 'Indie Flower', cursive;
+	overflow: hidden;
+}
+
+img.steven_jumping {
+	padding-bottom: 100;
 }

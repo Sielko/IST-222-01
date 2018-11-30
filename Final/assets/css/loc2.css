@@ -4,8 +4,15 @@ div.main {
 
 img.Bubble_Buddies_BG_4 {
 	size: 5%;
+	float: left;
+	padding-left: 200px
+	word-wrap: break-word;
 }
 
 div.main > aside{
-	float: left;
+	float: right;
+}
+
+aside.info {
+	padding-left: 100px;
 }
