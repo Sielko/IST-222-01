@@ -7,3 +7,11 @@ dt.placeholder {
 	display: 0;
 	color: red;
 }
+
+/* td.monthTitle { */
+	/* width: 10%; */
+/* } */
+
+tr.eventTitle > td.eventTitle {
+	
+}
