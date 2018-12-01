@@ -1,34 +1,23 @@
 aside {
-	padding-right: 25px;
+	padding-right: 20px;
+	padding-left: 30px;
 }
 
-div.main > aside.info > img.red_wave_line {
-	width: 15%;
-	height: auto;
+/* div.main > aside.info > img.red_wave_line { */
+	/* width: 15%; */
+	/* height: auto; */
+/* } */
+
+div.main > h1 {
+	-webkit-font-family: 'Indie Flower', cursive;
+	-moz-font-family: 'Indie Flower', cursive;
+	font-family: 'Indie Flower', cursive;
+	padding-left: 50px;
 }
 
-/* Red border */
-hr.new1 {
-  border-top: 1px solid red;
-}
-
-/* Dashed red border */
-hr.new2 {
-  border-top: 1px dashed red;
-}
-
-/* Dotted red border */
-hr.new3 {
-  border-top: 1px dotted red;
-}
-
-/* Thick red border */
-hr.new4 {
-  border: 1px solid red;
-}
-
-/* Large rounded green border */
-hr.new5 {
-  border: 10px solid green;
-  border-radius: 5px;
+div.imgmain {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }

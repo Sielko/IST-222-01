@@ -1,0 +1,60 @@
+div.main {
+	border: blue;
+}
+
+img.bigdonut {
+	size: 5%;
+	float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* div.main > aside{ */
+	/* float: right; */
+/* } */
+
+aside.info {
+	-webkit-font-family: 'Indie Flower', cursive;
+	-moz-font-family: 'Indie Flower', cursive;
+	font-family: 'Indie Flower', cursive;
+	display: block;
+}
+
+img.Big_Donut_Logo {
+	height: 150px;
+	width: auto;
+	position: absolute;
+	top: 1396px;
+	left: 450px;
+}
+
+
+
+img.Gem_Glow_Backgrounds_ {
+	height: 200px;
+	width: auto;
+	position: absolute;
+	left: 325px;
+	top: 1150px;
+	background-color: white;
+}
+
+img.bigdonut2 {
+	height: 200px;
+	width: auto;
+	position: absolute;
+	top: 1376px;
+	left: 15px;
+	background-color: white;
+}
+
+img.bigdonut3 {
+	height: 200px;
+	width: auto;
+	position: absolute;
+	left: 275px;
+	top: 1621px;
+	background-color: white;
+}

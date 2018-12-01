@@ -1,16 +1,18 @@
-/* header > h1 { */
-	/* -webkit-font-family: 'Indie Flower', cursive; */
-	/* -moz-font-family: 'Indie Flower', cursive; */
-	/* font-family: 'Indie Flower', cursive; */
-	/* overflow: hidden; */
-/* } */
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 
-/* p.forPres { */
-	/* -webkit-font-family: 'Indie Flower', cursive; */
-	/* -moz-font-family: 'Indie Flower', cursive; */
-	/* font-family: 'Indie Flower', cursive; */
-	/* overflow: hidden; */
-/* } */
+header > h1 {
+	-webkit-font-family: 'Indie Flower', cursive;
+	-moz-font-family: 'Indie Flower', cursive;
+	font-family: 'Indie Flower', cursive;
+	overflow: hidden;
+}
+
+p.forPres {
+	-webkit-font-family: 'Indie Flower', cursive;
+	-moz-font-family: 'Indie Flower', cursive;
+	font-family: 'Indie Flower', cursive;
+	overflow: hidden;
+}
 
 img.Steven_Shield_WD {
 	width: 15%;
