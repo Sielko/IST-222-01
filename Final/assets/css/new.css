@@ -37,6 +37,13 @@ p.abilities {
 	float: right;
 }
 
+img.red_wave_line {
+	width: 1000px;
+	height: 150px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 header {
 	padding:128px 16px;
 }
@@ -57,3 +64,8 @@ blockquote p:last-of-type {
 q {quotes: "\201C" "\201D" "\2018" "\2019";}
 q:before {content:open-quote;}
 q:after {content:close-quote;}
+
+/* hr.hr_smallpadding { */
+	/* padding-left: 100px; */
+	/* padding-right: 15%; */
+/* } */
