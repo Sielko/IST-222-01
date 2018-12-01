@@ -45,16 +45,34 @@ img.bigdonut2 {
 	height: 200px;
 	width: auto;
 	position: absolute;
-	top: 1376px;
+	top: 1386px;
 	left: 15px;
 	background-color: white;
 }
 
 img.bigdonut3 {
-	height: 200px;
+	height: 222px;
 	width: auto;
 	position: absolute;
-	left: 275px;
-	top: 1621px;
+	left: 121px;
+	top: 1661px;
+	background-color: white;
+}
+
+img.The_New_Lars_226 {
+	height: 300px;
+	width: auto;
+	position: absolute;
+	left: 100px;
+	top: 1921px;
+	background-color: white;
+}
+
+img.StevenCrewniverse {
+	height: 300px;
+	width: auto;
+	position: absolute;
+	left: 100px;
+	top: 2321px;
 	background-color: white;
 }
