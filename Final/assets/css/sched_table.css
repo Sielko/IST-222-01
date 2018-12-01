@@ -4,5 +4,6 @@ table.calander {
 }
 
 dt.placeholder {
+	display: 0;
 	color: red;
 }
