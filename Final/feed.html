@@ -4,6 +4,7 @@
 	<title>Steven Quartz Universe - For President</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/new.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -63,7 +64,7 @@
 					<div class="w3-half">
 						<label for="email"><i class="fas fa-envelope"></i> Email: </label>
 								<br/>
-									<input id="email" class="w3-input w3-border" type="text" placeholder="johndoe@example.com" required="yes">
+									<input id="email" class="w3-input w3-border" type="email" placeholder="johndoe@example.com" required="yes">
 					</div>
 				</div>
 			
@@ -96,7 +97,7 @@
 				<div class="w3-row-padding">
 					<div class="feedback_box">
 						<label for="feedback">Feedback: </label>
-							<input class="w3-input w3-border w3-round feedback" name="feedback" id="feedback_box" type="text" size="500" placeholder="Please leave feedback here!" required="yes">
+							<input class="w3-input w3-border w3-round feedback" name="feedback" id="feedback_box" type="textarea" size="500" placeholder="Please leave feedback here!" required="yes">
 					</div>
 				</div>
 			<br/>
@@ -132,15 +133,17 @@
 							<!-- <label for="creditcard" id="creditcard">Credit Card number:</label> -->
 								<!-- <fieldset> -->
 									<!-- <fieldset class="cardNum" id="cardNum"> -->
-										<input class="w3-border w3-round creditcard_box card_box1" id="card_box1" name="card_box1" type="text" size="4" maxlength="4" pattern="\d\d\d\d" required="yes">
-										<input class="w3-border w3-round creditcard_box card_box2" id="card_box2" name="card_box2" type="text" size="4" maxlength="4" pattern="\d\d\d\d"  required="yes">
-										<input class="w3-border w3-round creditcard_box card_box3" id="card_box3" name="card_box3" type="text" size="4" maxlength="4" pattern="\d\d\d\d"  required="yes">
-										<input class="w3-border w3-round creditcard_box card_box4" id="card_box4" name="card_box4" type="text" size="4" maxlength="4" pattern="\d\d\d\d"  required="yes">
+										<!-- <input class="w3-border w3-round creditcard_box card_box1" id="card_box1" name="card_box1" type="text" size="4" maxlength="4" pattern="\d\d\d\d" required="yes"> -->
+										<!-- <input class="w3-border w3-round creditcard_box card_box2" id="card_box2" name="card_box2" type="text" size="4" maxlength="4" pattern="\d\d\d\d"  required="yes"> -->
+										<!-- <input class="w3-border w3-round creditcard_box card_box3" id="card_box3" name="card_box3" type="text" size="4" maxlength="4" pattern="\d\d\d\d"  required="yes"> -->
+										<!-- <input class="w3-border w3-round creditcard_box card_box4" id="card_box4" name="card_box4" type="text" size="4" maxlength="4" pattern="\d\d\d\d"  required="yes"> -->
+										<div class="cardInput">
+											<input class="w3-border w3-round creditcard_box card_box4" id="card_box" name="card_box" type="text" size="16" maxlength="16" pattern="\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d"  required="yes">
+											<!-- <img src="" class="cardImage" alt="cardImage"> -->
+										</div>
 									<!-- </fieldset> -->
-									
-									<br/>
-									<br/>
-									
+							<br/>
+							<br/>
 									<label for="monthList">Expiration Date: </label>
 										<select class="w3-select w3-border w3-round cardMonth" name="cardMonth" id="monthList" required="yes">
 											<option value="">--Month--</option>

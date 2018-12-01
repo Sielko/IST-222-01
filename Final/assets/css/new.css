@@ -1,3 +1,17 @@
+/* header > h1 { */
+	/* -webkit-font-family: 'Indie Flower', cursive; */
+	/* -moz-font-family: 'Indie Flower', cursive; */
+	/* font-family: 'Indie Flower', cursive; */
+	/* overflow: hidden; */
+/* } */
+
+/* p.forPres { */
+	/* -webkit-font-family: 'Indie Flower', cursive; */
+	/* -moz-font-family: 'Indie Flower', cursive; */
+	/* font-family: 'Indie Flower', cursive; */
+	/* overflow: hidden; */
+/* } */
+
 img.Steven_Shield_WD {
 	width: 15%;
 	height: auto;
@@ -23,6 +37,9 @@ p.abilities {
 	float: right;
 }
 
+header {
+	padding:128px 16px;
+}
 
 blockquote {
 	font-size: 1em;

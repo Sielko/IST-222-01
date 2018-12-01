@@ -1,4 +1,6 @@
 div.feedback {
+	-webkit-font-family: 'Indie Flower', cursive;
+	-moz-font-family: 'Indie Flower', cursive;
 	font-family: 'Indie Flower', cursive;
 	font-size: 20px;
 	display: block;
@@ -11,7 +13,9 @@ div.feedback {
 div.contribute {
 	font-family: 'Indie Flower', cursive;
 	font-size: 20px;
-	width: 33.33%;
+	display: block;
+	resize: none;
+	width: 500px;
 	height: auto;
 	float: left;
 }
@@ -22,7 +26,7 @@ fieldset.cardNum {
 }
 
 label.creditcard {
-	width: 25%;
+	width: 30%;
 	float: left;
 }
 
@@ -35,7 +39,7 @@ select.cardMonth {
 	/* margin: 25%; */
 }
 select.cardYear {
-	width: 35%;
+	width: 80px;
 	/* margin: 25%; */
 }
 
@@ -44,10 +48,18 @@ i.ccIcon {
 	float: right;
 }
 
-/* input.creditcard_box { */
-	/* width: 25%; */
-	/* float: left; */
-/* } */
+img.cardImage {
+	display: block;
+	float: right;
+	padding-left: 60px;
+	padding-bottom: 5px;
+	padding-right: -250px;
+}
+
+input.creditcard_box {
+	width: 100%;
+	float: left;
+}
 
 div.feedback_box {
 	resize: 50, 50;
@@ -65,14 +77,25 @@ input[type=text]:focus {
 /* Peridot_Gem_Standard */
 /* Garnet_ruby_gem_day */
 
-input:focus:valid:not([type="text"]) {
-	background: rgb(215, 255, 255) url(assets\img\Peridot_Gem_Standard.png) / contain no-repeat;
+/* input:focus:valid:not([type="text"]) { */
+	/* background: rgb(215, 255, 255) url(assets\img\Peridot_Gem_Standard.png) / contain no-repeat; */
+/* } */
+
+/* input:focus:invalid:not([type="text"]) { */
+	/* background: rgb(215, 245, 215) url(assets\img\Garnet_ruby_gem_day.png) / contain no-repeat; */
+/* } */
+
+input:focus, select:focus, textarea:focus {
+	background-color: rgb(220, 255, 220);
 }
 
-input:focus:invalid:not([type="text"]) {
-	background: rgb(215, 245, 215) url(assets\img\Garnet_ruby_gem_day.png) / contain no-repeat;
+input:focus:valid {
+	background: rgb(153, 204, 0) url(assets\img\valid.png) bottom right/contain no-repeat;
 }
 
+input:focus:invalid {
+	background: rgb(255, 102, 0) url(assets\img\valid.png) bottom right/contain no-repeat;
+}
 /* input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { */
 	/* -webkit-appearance: none; */
 /* } */
@@ -81,3 +104,24 @@ input:focus:invalid:not([type="text"]) {
 input.creditcard_box {
 	size: 4;
 }
+
+/* form { */
+	/* > input[type="text"], */
+	/* > input[type="email"], */
+	/* > input[type="password"], */
+	/* > input[type="number"] { */
+		/* /* // show success! */ */
+			/* &:valid { */
+				/* background: url(assets\img\Peridot_Gem_Standard.png); */
+				/* background-size: 20px; */
+				/* background-repeat: no-repeat; */
+				/* background-position: 20px 20px; */
+				
+				/* /* // continue to hide the label */ */
+				/* & + label { */
+					/* opacity: 0; */
+				/* } */
+			/* } */
+		/* } */
+	/* } */
+/* } */
