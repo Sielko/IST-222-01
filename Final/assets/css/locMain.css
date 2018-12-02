@@ -3,6 +3,13 @@ aside {
 	padding-left: 30px;
 }
 
+aside.info {
+	-webkit-font-family: 'Indie Flower', cursive;
+	-moz-font-family: 'Indie Flower', cursive;
+	font-family: 'Indie Flower', cursive;
+	display: block;
+}
+
 /* div.main > aside.info > img.red_wave_line { */
 	/* width: 15%; */
 	/* height: auto; */

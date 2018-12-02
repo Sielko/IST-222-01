@@ -1,0 +1,78 @@
+div.main {
+	border: blue;
+}
+
+img.Arcade_Mania_Background_4 {
+	size: 5%;
+	float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+}
+
+img.ArcadeManiaPreview01 {
+	height: 200px;
+	width: auto;
+	position: absolute;
+	left: 325px;
+	top: 1150px;
+	background-color: white;
+}
+
+img.SU_Arcade_Mania_Smiley_and_Tickets {
+	height: 200px;
+	width: auto;
+	position: absolute;
+	top: 1386px;
+	left: 15px;
+	background-color: white;
+}
+
+img.SU_Arcade_Mania_Funland_Arcade_Bg {
+	height: 222px;
+	width: auto;
+	position: absolute;
+	left: 121px;
+	top: 1661px;
+	background-color: white;
+}
+
+img.AfqyZSl {
+	height: 135px;
+	width: auto;
+	position: absolute;
+	left: 725px;
+	top: 655px;
+	background-color: white;
+}
+
+img.large {
+	height: 175px;
+	width: auto;
+	position: absolute;
+	top: 1396px;
+	left: 400px;
+	background-color: white;
+}
+
+img.StevenCrewniverse {
+	height: 300px;
+	width: auto;
+	position: absolute;
+	left: 100px;
+	top: 2321px;
+	background-color: white;
+}
+
+/* div.main > aside{ */
+	/* float: right; */
+/* } */
+
+/* aside.info { */
+	/* -webkit-font-family: 'Indie Flower', cursive; */
+	/* -moz-font-family: 'Indie Flower', cursive; */
+	/* font-family: 'Indie Flower', cursive; */
+	/* display: block; */
+/* } */
