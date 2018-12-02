@@ -1,8 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<title>Welcome</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="assets/css/welcome.css">
+	<link rel="stylesheet" href="assets/css/404.css">
 </head>
 <body>
-	<p>This is custom 404 Page!</p>
+	<div class="redesigned">
+		<h1 class="w3-xxxlarge w3-container w3-center redesigned">I can't find this page!</h1>
+			<p class="w3-xlarge w3-container w3-center redesigned">Maybe it was lost in space?</p>
+				<br/>
+					<img src="assets/img/steven_head_bounce.gif"class="w3-display-middle steven_head_bounce" alt="steven_head_bounce">
+	</div>
+<script type="text/javascript">
+
+window.onload = function(){
+
+(function(){
+  var counter = 5;
+
+  setInterval(function() {
+    counter--;
+    if (counter >= 0) {
+      span = document.getElementById("count");
+      span.innerHTML = counter;
+    }
+    // Display 'counter' wherever you want to display it.
+    if (counter === 0) {
+    //    alert('this is where it happens');
+        clearInterval(counter);
+    }
+
+  }, 1000);
+
+})();
+
+}
+
+</script>
 </body>
 </html>
