@@ -46,18 +46,18 @@
 				<h2>Feedback:</h2>
 			</div>
 			
-			<form class="w3-container">
+			<form class="w3-container"  action="feed.php" method="get">
 			
 				<br/>
 				
 					<div class="w3-row-padding">
 						<div class="w3-half">
 							<label for="nameFirst"><i class="fa fa-user"></i> First Name: </label>
-									<input class="w3-input w3-border w3-round" type="text" placeholder="first" required="yes">
+									<input class="w3-input w3-border w3-round" type="text" placeholder="first" name="first" required="yes">
 						</div>
 						<div class="w3-half">
 							<label for="nameLast"><i class="fa fa-user"></i> Last Name: </label>
-									<input class="w3-input w3-border w3-round" type="text" placeholder="last" required="yes" >
+									<input class="w3-input w3-border w3-round" type="text" placeholder="last" name="last" required="yes" >
 						</div>
 					</div>
 				
@@ -67,7 +67,7 @@
 					<div class="w3-half">
 						<label for="email"><i class="fas fa-envelope"></i> Email: </label>
 								<br/>
-									<input id="email" class="w3-input w3-border" type="email" placeholder="johndoe@example.com" required="yes">
+									<input id="email" class="w3-input w3-border" name="email" type="email" placeholder="johndoe@example.com" required="yes">
 					</div>
 				</div>
 			
@@ -91,7 +91,7 @@
 				<div class="w3-row-padding">
 					<div class="w3-half">
 						<label for="age" class="">Age: </label>
-							<input class="w3-input w3-border w3-round" type="number" size="3" maxlength="3" pattern="\d\d\d" placeholder="" required="yes">
+							<input class="w3-input w3-border w3-round" name="age" type="number" size="3" maxlength="3" pattern="\d\d\d" placeholder="" required="yes">
 					</div>
 				</div>
 				
@@ -119,7 +119,7 @@
 				<h2 class="w3-xlarge ">Contribute:</h2>
 			</div>
 			
-			<form class="w3-container">
+			<form class="w3-container" action="feed.php" method="get">
 			
 				<br/>
 				
