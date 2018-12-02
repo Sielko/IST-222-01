@@ -8,6 +8,16 @@ dt.placeholder {
 	color: red;
 }
 
+h5.placeholder {
+	display: 0;
+	color: red;
+}
+
+td.placeholder {
+	display: 0;
+	color: red;
+}
+
 /* td.monthTitle { */
 	/* width: 10%; */
 /* } */
