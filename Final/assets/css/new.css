@@ -7,12 +7,12 @@ header > h1 {
 	overflow: hidden;
 }
 
-p.forPres {
-	-webkit-font-family: 'Indie Flower', cursive;
-	-moz-font-family: 'Indie Flower', cursive;
-	font-family: 'Indie Flower', cursive;
-	overflow: hidden;
-}
+/* p.forPres { */
+	/* -webkit-font-family: 'Indie Flower', cursive; */
+	/* -moz-font-family: 'Indie Flower', cursive; */
+	/* font-family: 'Indie Flower', cursive; */
+	/* overflow: hidden; */
+/* } */
 
 img.Steven_Shield_WD {
 	width: 15%;
@@ -35,37 +35,37 @@ img.Steven {
 	float: right;
 } */
 
-p.abilities {
-	float: right;
-}
+/* p.abilities { */
+	/* float: right; */
+/* } */
 
-img.red_wave_line {
-	width: 1000px;
-	height: 150px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
+/* img.red_wave_line { */
+	/* width: 1000px; */
+	/* height: 150px; */
+	/* margin-top: 5px; */
+	/* margin-bottom: 5px; */
+/* } */
 
-header {
-	padding:128px 16px;
-}
+/* header { */
+	/* padding:128px 16px; */
+/* } */
 
-blockquote {
-	font-size: 1em;
-	width: 100%;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	margin: 0 0 4% 0;
-}
+/* blockquote { */
+	/* font-size: 1em; */
+	/* width: 100%; */
+	/* font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; */
+	/* margin: 0 0 4% 0; */
+/* } */
 
-blockquote p:last-of-type {
-	border-top: 1px solid rgba(128,98,26,1.00);
-	text-align: right;
-	font-size: 1em;
-}
+/* blockquote p:last-of-type { */
+	/* border-top: 1px solid rgba(128,98,26,1.00); */
+	/* text-align: right; */
+	/* font-size: 1em; */
+/* } */
 
-q {quotes: "\201C" "\201D" "\2018" "\2019";}
-q:before {content:open-quote;}
-q:after {content:close-quote;}
+/* q {quotes: "\201C" "\201D" "\2018" "\2019";} */
+/* q:before {content:open-quote;} */
+/* q:after {content:close-quote;} */
 
 /* hr.hr_smallpadding { */
 	/* padding-left: 100px; */
